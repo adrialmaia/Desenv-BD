@@ -1,2 +1,2 @@
 # Desenv-BD
-Utilizado Nas Aulas de Desenvolvimento
+Utilizado nas Aulas de Desenvolvimento
