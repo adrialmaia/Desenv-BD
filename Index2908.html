@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+    <meta charset="utf-8"/>
+    <title>Formularios</title>
+
+</head>
+<!--Acima cabeçalho padrão não se altera-->
+
+
+<body>
+    <form name="login" 
+          action="" 
+          method="POST">
+
+    <form>
+        <label>Nome do usuário</label><br/><!--criar campo para usuáro-->
+        <input type="text" 
+               maxlength="15"
+               placeholder="Informar nome usuário"
+               name="user"
+               size="60"
+               required/></br><!--required tornar o campo obrigatório-->
+
+        <label>Senha:</label></br>
+        <input type="password"
+               maxlength="8"
+               name="senha"
+               size="60"/></br>
+
+        <form></br>
+        Selecione Estado:</br>
+        <select>
+            <option value="SP" > São Paulo</option>
+            <option value="PR"> Paraná</option>
+            <option value="MG"> Minas Gerais</option>
+            <option value="RJ"> Rio de Janeiro</option>
+        </select>
+        </form></br>
+        
+        <form>
+        Selecione Estado:</br>
+        <input type="checkbox" value="SP"> São Paulo</br>
+        <input type="checkbox" value="PR"> Paraná</br>
+        <form/><br/>
+
+        <form>
+        Selecione Linguagem:</br>
+        <input type="radio" value="Pyton" name="lp"> Python
+        <input type="radio" value="Java" name="lp"> Java
+        </form></br>
+
+        <textarea>
+
+        <!--campo livre-->
+
+        </textarea></br>
+
+        <input type="submit"
+               value="OK"/>
+        <input type="reset" value="limpar"/>
+        
+    </form>
+
+</body>
+</html>
