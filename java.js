@@ -5,9 +5,9 @@ var booleana = true / false;
 
 
 //para criar comentarios
-/*
+
     para comentar um bloco
-                            */                        
+                                                   
                            
                            
     Nome = "Adriano";
@@ -66,7 +66,74 @@ var booleana = true / false;
     for(var i=0; i<=5; i++){
             alert(i);
     }
-    
 
+
+    //Estrutura de Função
+    function nome (){
+            comandos;
+    }
+
+    //exemplo
+    function somar(){
+        alert(5 + 3);
+    }
+    somar();
+    
+    //exemplo
+    function somar(n1,n2){
+        alert(n1 + n2);
+    }
+    somar(5, 3);
+    
+    //exemplo
+    function somar(n1,n2){
+        return n1 + n2;
+    }
+    var resultado=somar(5,3);
+    alert(resultado);
+
+
+    //Estrutura document.write
+    function somar(){
+        var cont=1;
+        while ( cont <= 5){
+            document.write(cont + "</br>")
+            cont++;
+        }
+    }
 
 alert ("Aula de JavaScript");
+
+
+
+/*Exercicio
+Função tabuada
+imprimir no documento a tabuada do 5
+seguinte padrão:
+
+5x1 = 5
+5x2 = 10
+...
+5x10 = 50*/
+
+function tabuada (){
+    for (var i=0; i<=10; i++)
+        var = i * 5;
+
+    document.write(cont * "</br>")
+
+}
+
+//CORREÇÃO
+function tabuada(){    //usando while
+    var cont = 1;
+    while(cont <=10){
+        document.write("5 x" + " =" 5*cont + "</br>");
+        cont++;
+    }
+}
+
+function tabuada (){   //usando for
+    for (var i=0; i<=10; i++){
+    document.write("5 x" + i +" =" 5*i + "</br>");
+    }
