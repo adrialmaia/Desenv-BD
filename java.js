@@ -106,7 +106,7 @@ alert ("Aula de JavaScript");
 
 
 
-/*Exercicio
+//Exercicio
 Função tabuada
 imprimir no documento a tabuada do 5
 seguinte padrão:
@@ -114,7 +114,7 @@ seguinte padrão:
 5x1 = 5
 5x2 = 10
 ...
-5x10 = 50*/
+5x10 = 50*//*
 
 function tabuada (){
     for (var i=0; i<=10; i++)
